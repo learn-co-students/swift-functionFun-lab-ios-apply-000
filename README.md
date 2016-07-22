@@ -43,8 +43,7 @@
 
 **1** - Create a function called `greet(_:)` which takes in one argument of type `String` which represents someones name and returns a `String`. Someone calling on this function might give it the name "Jim", where the `String` being returned would look like this: 'Hello Jim!'.
 
-**2** - Create a function called `frozen()` which takes in no arguments but returns back a `String`. Implement this function so that when it is called, the `String` it should return is 'Let it go!'.  
-> The cold never bothered me anyway
+**2** - Create a function called `frozen()` which takes in no arguments but returns back a `String`. Implement this function so that when it is called, the `String` it should return is 'Let it go!'. For those that have **never** heard this song before, you can listen to it [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 **3** - Create a function called `favoriteCharacter(_:)` which takes in one argument of type `String` which represents the name of a character and returns a `String`. If someone called on this function, passing in as a argument "Crystal", the `String` returned would look like this: 'My favorite character is Crystal.'.
 
