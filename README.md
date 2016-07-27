@@ -23,6 +23,22 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ![Xcode Open](http://i.imgur.com/lP6H2Px.png)
 
+* Locate your Terminal application on your Mac. Pressing command + spacebar will bring up a search bar where you can begin to type in Terminal which is a fast way to locate the application (or any application for that mater!).
+
+![findingTerminal](http://i.imgur.com/KHIEntU.png)
+
+* Here is what my version of Terminal looks like when it's open. Yours might not look exactly like this, but you should be able to type in any commands you wish here.
+
+![termm](http://i.imgur.com/SZegciH.png)
+
+* Type the following command in Terminal. Doing so should install the necessary packages. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make.
+
+`xcode-select --install`
+
+* Once this installation is complete, you can move onto the next step. Below is a screenshot of me typing in the necessary command before I hit the return key to execute it.
+
+![xfun](http://i.imgur.com/jEB36Qc.png)
+
 ---
 
 ## 2. Github
@@ -99,7 +115,14 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ![terminal](http://i.imgur.com/Gi2oymQ.png)
 
-* In the next few steps, there are commands that we will be asking you make in the Terminal application. If you find that every time you type in these commands that you're receiving errors, you might have to go through a list of steps provided by Github first. That list of instructions can be found [here](https://help.github.com/articles/set-up-git/).
+* In the next few steps, there are commands that we will be asking you make in the Terminal application. If you find that every time you type in these commands that you're receiving errors, you might have to install Git.
+
+* If you don't have Git installed in that the above command isn't working for you. Type `git` from the Terminal. If you don't have it installed already, it will prompt you to install it.
+
+![typing git](http://i.imgur.com/vVfER9a.png)
+
+* If you find that installation of Git isn't working this way, check out this link [here](https://help.github.com/articles/set-up-git/) and follow those instructions before coming back here.
+
 
 * We need to find a place on our computer where we want to store these files. I suggest saving them in your Developer folder, so that way they aren't scattered all over your desktop. Take a look at the following commands I typed in to enter the Developer folder.
 
@@ -235,13 +258,25 @@ func sayHello() {
 
 ![doneas](http://i.imgur.com/8oJp0jH.png)
 
-* We can now move onto the Next Lesson.
 
-Note: There are some labs that include tests (the one you're about to complete below is one of them). They might include an additional circle (that can be lit green) that states that you need to Pass The Tests. When the tests pass within Xcode, the appropriate circle (on learn) should light up green. 
+
+Note: There are some labs that include tests (the one you're about to complete below is one of them). They might include an additional circle (that can be lit green) that states that you need to Pass The Tests. When the tests pass within Xcode, the appropriate circle (on learn) should light up green.
+
+* In order for Xcode to be able to communicate with Learn to let Learn know that the all of your tests passed when completing a lab, you need to type the following command in Terminal.
+
+`curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh`
+
+* After running the command above in terminal, you should be met with a message that states "You're all set - setup complete!" after going through any necessary steps of it asking you any questions.
+
+![completeSetup](http://i.imgur.com/OBX76qT.png)
+
+
+* After this installation is complete, you are good to go!
 
 * It's time to give a shot beginning with the Learning Objectives below. Your ride has begun.. hold on and good luck!
 
 ![reaction](https://media.giphy.com/media/NIvUx6LX6w3lu/giphy.gif)
+
 
 ## Learning Objectives
 
