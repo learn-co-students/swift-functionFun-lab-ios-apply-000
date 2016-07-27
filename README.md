@@ -239,7 +239,9 @@ func sayHello() {
 
 Note: There are some labs that include tests (the one you're about to complete below is one of them). They might include an additional circle (that can be lit green) that states that you need to Pass The Tests. When the tests pass within Xcode, the appropriate circle (on learn) should light up green. 
 
+* It's time to give a shot beginning with the Learning Objectives below. Your ride has begun.. hold on and good luck!
 
+![reaction](https://media.giphy.com/media/NIvUx6LX6w3lu/giphy.gif)
 
 ## Learning Objectives
 
@@ -248,9 +250,10 @@ Note: There are some labs that include tests (the one you're about to complete b
 * Perform math and string interpolation in your implementation of a function.
 * Have fun.
 
+---
 
 
-## Instructions
+# Instructions
 
 ### Setup
 
