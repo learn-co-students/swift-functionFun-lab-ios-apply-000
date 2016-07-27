@@ -23,7 +23,7 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ![Xcode Open](http://i.imgur.com/lP6H2Px.png)
 
-* Locate your Terminal application on your Mac. Pressing command + spacebar will bring up a search bar where you can begin to type in Terminal which is a fast way to locate the application (or any application for that mater!).
+* Locate your Terminal application on your Mac. Pressing command + spacebar will bring up a search bar where you can begin to type in Terminal which is a fast way to locate the application (or any application for that matter!).
 
 ![findingTerminal](http://i.imgur.com/KHIEntU.png)
 
@@ -35,7 +35,7 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 `xcode-select --install`
 
-* Once this installation is complete, you can move onto the next step. Below is a screenshot of me typing in the necessary command before I hit the return key to execute it.
+* Once this installation is complete, you can move onto the next step. Below is a screenshot where we're typing in the necessary command before hitting the return key to execute it.
 
 ![xfun](http://i.imgur.com/jEB36Qc.png)
 
@@ -45,7 +45,7 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 * Make sure your Github account is working. How do we do that? Make sure you can login to your Github account [here](https://github.com/). If you don't have an account, please make one now. 
 
-* After logging in, you should see something similar to this (excluding me):
+* After logging in, you should see something similar to this:
 ![git](http://i.imgur.com/hBeBGXG.png)
 
 * All of the labs you will be asked to complete moving forward are hosted on [Github](https://github.com/learn-co-curriculum) and they are open-sourced! [Here](https://www.objc.io/issues/22-scale/artsy/) is a great article regarding _open source by default_ by Orta Therox, Ash Furrow, Laura Brown, and Eloy Duran.
@@ -79,7 +79,7 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 ![GitHub Lab](http://i.imgur.com/WDEeReM.png)
 
 
-* Well, that looks familiar. Sticking with our analogy, we've found our way to the original copy of the exam! What we were looking at before Was Learn taking this exact file and presenting it to you in its own way. 
+* Well, that looks familiar. Sticking with our analogy, we've found our way to the original copy of the exam! What we were looking at before was Learn taking this exact file and presenting it to you in its own way. 
 * If you look hard enough on this page, you should find the Fork button in the upper right corner of the screen below your profile image.
 * When you tap the Fork button, you should be presented with the following screen:
 
@@ -97,11 +97,11 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ![finalScreen](http://i.imgur.com/oT7AbGt.png)
 
-* The second time I'll be mentioning this, that looks familiar! We now have our repository (exam) where we can begin working! Not so fast. We have our own version of this repository stored on our account on Github, but we need to now bring down these various files associated with the repository to our local machine (the computer you're sitting at!). 
-* Once these files associated with thie repository are downloaded to our computer, we can open the necessary files the instructions tell us to open and begin writing code!
-* How do we download these files to our computer.
-* First things first, this next step isn't *required*, but I do **HIGHLY** suggest it. Generating an SSH Key. This will allow for you to clone (download) these files down to your computer without forcing you to enter in your Username & Password (for github) every single time. This will save you a lot of time. You can read about how you can setup your SSH Key [here](https://help.github.com/articles/generating-an-ssh-key/).
-* Then click the "Clone or download" button lit up in green in the right-center of the screen.
+* That looks familiar too! We now have our repository (exam) where we can begin working! Not so fast. We have our own version of this repository stored on our account on Github, but we need to now bring down these various files associated with the repository to our local machine (the computer you're sitting at!). 
+* Once these files associated with this repository are downloaded to our computer, we can open the necessary files the instructions tell us to open and begin writing code!
+* How do we download these files to our computer?
+* First things first, this next step isn't *required*, but we do **HIGHLY** suggest it, and that's generating an SSH Key. This will allow for you to clone (download) these files down to your computer without forcing you to enter in your Username & Password (for github) every single time. This will save you a lot of time. You can read about how you can set up your SSH Key [here](https://help.github.com/articles/generating-an-ssh-key/).
+* Then click the green "Clone or download" button in the right-center of the Github page. 
 
 ![Clone](http://i.imgur.com/zAeFK5k.png)
 
@@ -115,16 +115,15 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ![terminal](http://i.imgur.com/Gi2oymQ.png)
 
-* In the next few steps, there are commands that we will be asking you make in the Terminal application. If you find that every time you type in these commands that you're receiving errors, you might have to install Git.
+* In the next few steps, there are commands that we will be asking you to make in the Terminal application. If you find that every time you type in these commands that you're receiving errors, you might have to install Git.
 
-* If you don't have Git installed in that the above command isn't working for you. Type `git` from the Terminal. If you don't have it installed already, it will prompt you to install it.
+* Type `git` from the Terminal. If you don't have it installed already, it will prompt you to install it.
 
 ![typing git](http://i.imgur.com/vVfER9a.png)
 
 * If you find that installation of Git isn't working this way, check out this link [here](https://help.github.com/articles/set-up-git/) and follow those instructions before coming back here.
 
-
-* We need to find a place on our computer where we want to store these files. I suggest saving them in your Developer folder, so that way they aren't scattered all over your desktop. Take a look at the following commands I typed in to enter the Developer folder.
+* We need to find a place on our computer where we want to store these files. We suggest saving them in your Developer folder, so that way they aren't scattered all over your desktop. Take a look at the following commands I typed in to enter the Developer folder.
 
 ![commands](http://i.imgur.com/pZSe3ff.png)
 
@@ -136,11 +135,11 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 ![cloney](http://i.imgur.com/SDhXmM7.png)
 * Now hit your return key.
 
-* You should see some commands being run in Terminal at this point, after it is done doing its thing - you should see the following:
+* You should see some commands being run in Terminal at this point. Afterwards you should see the following:
 
 ![thing](http://i.imgur.com/pYo0oZL.png)
 
-* If you see something similar to what is displayed in the screenshot above, we have succesfully clone down the repository to our computer. We can begin working!
+* If you see something similar to what is displayed in the screenshot above, we have succesfully cloned down the repository to our computer. We can begin working!
 
 * Nice job.
 
@@ -149,23 +148,22 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ---
 
-
 ## 4. Completing the Lab
 
-* Open a terminal, we need to get in this newly created directory we cloned from the instructions above.
+* Open you terminal. We need to get in this newly created directory we cloned from the instructions above. To get to the directory that you're in, use the `cd` command. 
 
 ![findintIt](http://i.imgur.com/7gGMBtB.png)
 
 * Auto-complete should make your life very easy here. You can begin to type swift after the `cd` command and then hit your tab button on your keyboard. When doing so, you should see it begin to auto-complete that above line for you. After then hitting return, we are in our newly made directory (the lab).
 
-* After entering your directory, you can type `ls` to see what's inside.
+* After entering your directory, you can type `ls` to see what's inside. (`ls` is a command that will list all the files and folders that are in the particular directory that you're in.) 
 
 ![dirin](http://i.imgur.com/x5PKgid.png)
 
 * There are a bunch of files, the same ones we were able to see when we first forked the lab.
 * We generally write our code in a few files. Here (in this example), we need to open the `Interface Builder Tour.xcodeproj` file. The lab should instruct you on what file to open (usually). If not, in general it's either going to be the `.xcodeproj` file or the `.xcworkspace` file.
 
-* We want to begin by typing `open` in Terminal, followed by `Interface Builder Tour.xcodeproj`. Auto-complete is your friend, don't forget when beginning to type Interface, you can hit the tab key to help complete it.
+* We want to begin by typing `open` in Terminal, followed by `Interface Builder Tour.xcodeproj`. Auto-complete is your friend. Don't forget when beginning to type Interface, you can hit the tab key to help complete it.
 * Then hit return, it should open Xcode up for you.
 
 ![return](http://i.imgur.com/4wEBkQT.png)
@@ -174,15 +172,15 @@ To begin making apps for iOS, MacOS, WatchOS, tvOS, you need to setup your [IDE]
 
 ![Xcode](http://i.imgur.com/uGJTysc.png)
 
-* In the left pane is where you should see various files. The instructions for each lab should direct you to the file where you should be writing your code. For instance, I will select the `ViewController.swift` file. After doing so, Xcode will look like this:
+* In the left pane is where you should see various files. The instructions for each lab should direct you to the file where you should be writing your code. For instance, we will select the `ViewController.swift` file. After doing so, Xcode will look like this:
 
 ![Xcodeagain](http://i.imgur.com/3iZ2cPI.png)
 
-* Here's me removing a function and adding some code to the `viewDidLoad()` function.
+* Here we are removing a function and adding some code to the `viewDidLoad()` function.
 
 ![writingCode](http://i.imgur.com/8qpp25q.png)
 
-* Lets pretend as if the instructions for this lab were for us to create a function called `sayHello()` that would just print out the following statement, "Hello everyone!". Lets do that.
+* Lets pretend as if the instructions for this lab were for us to create a function called `sayHello()` that would just print out the following statement, "Hello everyone!". Let's do that.
 
 ![finished](http://i.imgur.com/qvmiaKb.png)
 
@@ -198,9 +196,9 @@ func sayHello() {
 
 ## 5. Pull Request
 
-* If Terminal  isn't already open to the directory that contains this project, do so now.
+* If Terminal isn't already open to the directory that contains this project, open terminal and navigate to that directory now. 
 
-* Here's me getting to the directory:
+* Here we are getting to the directory:
 
 ![locate](http://i.imgur.com/iGrbLIR.png)
 
@@ -209,10 +207,10 @@ func sayHello() {
 
 ![untrack](http://i.imgur.com/0IObq1N.png)
 
-* Think of this as the changes that were made local (at your desk). Github isn't yet aware of these changes, Github is the server. So you need to now send these files back up to Github, that way they are now saved on the server. How do you do that?
+* Think of this as the changes that were made locally (at your desk). Github isn't yet aware of these changes, Github is the server. So you need to now send these files back up to Github; that way they are now saved on the server. How do you do that?
 * We need to now go through a series of steps. Add these files (to a staging area), commit these files and then push these files up to Github.
 * Adding. Type in `git add .` then hit return. This will add *all* the files changed here to this staging area.
-* Commiting. Now type in `git commit -m "Complete problems"` and hit return. You can commit your messaged and include a message alongside the commit. You can do this tag the list of changes you've made that way you can always go back and reference back your work.
+* Commiting. Now type in `git commit -m "Complete problems"` and hit return. You can commit your message and include a message alongside the commit. (The message always goes in quotation marks as you see in the above commit.) This way, you're tagging the list of changes you've made so that you can always go back and reference back your work.
 * Now type in `git push` or `git push master origin`. This will push up all these files that have been added and commited.
 * Here is what those steps looks like:
 
@@ -222,7 +220,7 @@ func sayHello() {
 
 ![justin](https://media.giphy.com/media/TsrC3a7hr9Z8k/giphy.gif)
 
-* So lets get back to Github! You should be here:
+* So let's get back to Github! You should be here:
 
 ![backhere](http://i.imgur.com/cLBmZIM.png)
 
