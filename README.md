@@ -299,6 +299,7 @@ Note: There are some labs that include tests (the one you're about to complete b
 
 * Feel free to remove that comment, that is where you will be creating your functions.
 * You should also notice that there's a `ViewControllerTests.swift` file in the left pane as well. Feel free to explore how these tests were written and what these tests are looking for.
+* You can read about how you will be working with the tests [here](https://github.com/learn-co-curriculum/swift-xcode-warnings-errors).
 * While implementing your functions, press **command + u** to get these tests to run. You should see the following green checkmark when you run the tests (using **command + u**) after *ALL* of your functions have been implemented correctly.
 
 ![test](http://i.imgur.com/ENEMfHg.png)
