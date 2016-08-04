@@ -12,18 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        print("Hello everyone reading this right now!")
     }
 
-    
-    // implement your functions here.
-    
-  
-    
-    
-    
-    
-    
-    
-    
+    func sayHello() {
+        
+        print("Hello everyone!")
+        
+    }
     
 }
