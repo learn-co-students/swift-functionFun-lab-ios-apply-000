@@ -44,7 +44,7 @@ class VCTests: QuickSpec {
             it("Take in a String as an argument and return back a String. x here represents the name of the individual passed into this function. The return should look like this - 'My favorite character is x.'") {
                 
                 let characterName = "Jessica"
-                let expectedResponse = "My favorite character is Jessica"
+                let expectedResponse = "My favorite character is Jessica."
                 let actualResponse = testVC.favoriteCharacter(characterName)
                 
                 expect(actualResponse).to(match(expectedResponse))

@@ -17,13 +17,27 @@ class ViewController: UIViewController {
     
     // implement your functions here.
     
-  
+func greet(name: String) -> String {
+    return ("Hello \(name)!")
+}
     
+func frozen() -> String {
+    return ("Let it go!")
+}
     
+func favoriteCharacter(character: String) -> String {
+    return ("My favorite character is \(character).")
+}
     
+func problems(prblmQty: Int) -> String {
+    return ("I got \(prblmQty) problems but Swift ain't one.")
+}
     
-    
-    
-    
-    
+func uppercaseCatchphrase(name: String) -> String {
+    return ("TO INFINITY AND BEYOND, \(name.uppercaseString)!")
+}
+
+func isEven(number: Int) -> Bool {
+    return ((number/2)+(number/2)==number)
+    }
 }
