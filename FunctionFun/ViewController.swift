@@ -34,7 +34,7 @@ func problems(prblmQty: Int) -> String {
 }
     
 func uppercaseCatchphrase(name: String) -> String {
-    return ("TO INFINITY AND BEYOND, \(name)!")
+    return ("TO INFINITY AND BEYOND, \(name.uppercaseString)!")
 }
 
 func isEven(number: Int) -> Bool {
