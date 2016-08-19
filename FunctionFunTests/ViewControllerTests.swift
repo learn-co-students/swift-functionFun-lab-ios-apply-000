@@ -16,7 +16,7 @@ class VCTests: QuickSpec {
     override func spec() {
         
         let testVC = ViewController()
-        
+
         describe("greet(_:)") {
             it("Should take in a String as an argument & return back a greeting as such (x being the name of the individual). 'Hello x!'") {
                 
@@ -99,3 +99,4 @@ class VCTests: QuickSpec {
         }
     }
 }
+
