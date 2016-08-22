@@ -37,7 +37,6 @@ class ViewController: UIViewController {
     }
   
     func isEven(number:Int) -> Bool {
-        number/2
-        return true
+        return number % 2 == 0
     }
 }
