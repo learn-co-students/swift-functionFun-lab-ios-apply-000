@@ -19,11 +19,34 @@ class ViewController: UIViewController {
     
   
     
+    func greet(name: String) -> String {
+        return "Hello \(name)!"
+    }
     
+    func frozen() -> String {
+        return "Let it go!"
+    }
     
+    func favoriteCharacter(name: String) -> String {
+        return "My favorite character is \(name)."
+    }
     
+    func problems(number: Int) -> String {
+        return "I got \(number) problems but Swift ain't one."
+    }
     
+    func uppercaseCatchphrase(name: String) -> String {
+        let sentence = "to infinity and beyond, \(name)!"
+        return sentence.uppercaseString
+    }
     
-    
+    func isEven(num: Int) -> Bool {
+        if num % 2 == 0 {
+            return true
+        }
+        else {
+            return false
+        }
+    }
     
 }
