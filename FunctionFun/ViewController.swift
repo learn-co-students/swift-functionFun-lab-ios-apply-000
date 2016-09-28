@@ -17,13 +17,5 @@ class ViewController: UIViewController {
     
     // implement your functions here.
     
-  
-    
-    
-    
-    
-    
-    
-    
-    
+
 }
