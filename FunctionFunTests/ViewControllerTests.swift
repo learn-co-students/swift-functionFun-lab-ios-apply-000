@@ -45,7 +45,7 @@ class VCTests: QuickSpec {
                 
                 let characterName = "Jessica"
                 let expectedResponse = "My favorite character is Jessica"
-                let actualResponse = testVC.favoriteCharacter(name: characterName)
+                let actualResponse = testVC.favoriteCharacter(characterName: characterName)
                 
                 expect(actualResponse).to(match(expectedResponse))
                 
