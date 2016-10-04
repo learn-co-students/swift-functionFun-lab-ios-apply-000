@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     
     func uppercaseCatchphrase(name: String) -> String {
         let catchPhrase = "To infinity and beyond, \(name)!"
-        return catchPhrase.uppercaseString
+        return catchPhrase.uppercased()
     }
     
     func isEven(number: Int) -> Bool {
