@@ -15,7 +15,46 @@ class ViewController: UIViewController {
     }
 
     
-    // implement your functions here.
+    func greet(person: String) -> String {
+        return("Hello \(person)!")
+    }
+    
+    func frozen() -> String {
+        return "Let it go!"
+    }
+    
+    func favoriteCharacter(name: String) -> String {
+        return "My favorite character is \(name)."
+    }
+    
+    func problems(number: Int) -> String {
+        return "I got \(number) problems but Swift ain't one."
+    }
+    
+    func uppercaseCatchphrase(name: String) -> String {
+        return "TO INFINITY AND BEYOND, \(name.uppercased())!"
+    }
+    
+    func isEven(number: Int) -> Bool {
+        let myResult = number % 2
+        print(myResult)
+        
+        if(myResult == 0) {
+            return true
+        }
+            
+        else {
+            return false
+        }
+        
+        
+    }
+
+   }
+
+
+
+
     
 
-}
+
