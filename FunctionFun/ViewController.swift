@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     //1
     func greet(name:String) -> String {
-        return "Hello \(name)"
+        return "Hello \(name)!"
     }
     
     //2
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     //5
     func uppercaseCatchphrase(name:String) -> String {
-        var sentence = "To infinity and beyond, \(name)"
+        var sentence = "To infinity and beyond, \(name)!"
         return sentence.uppercased()
     }
     
