@@ -203,10 +203,13 @@
 				TargetAttributes = {
 					7DC827D41D42A8A8008EDD80 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2796MDT856;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					7DC827E81D42A8A8008EDD80 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2796MDT856;
 						LastSwiftMigration = 0800;
 						TestTargetID = 7DC827D41D42A8A8008EDD80;
 					};
@@ -486,6 +489,8 @@
 			baseConfigurationReference = D5A3FFBA77EF2C07744F9A24 /* Pods-FunctionFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2796MDT856;
 				INFOPLIST_FILE = FunctionFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.FunctionFun;
@@ -499,6 +504,8 @@
 			baseConfigurationReference = 5EE1A158BC4936EA04210C24 /* Pods-FunctionFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2796MDT856;
 				INFOPLIST_FILE = FunctionFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.FunctionFun;
@@ -513,6 +520,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2796MDT856;
 				INFOPLIST_FILE = FunctionFunTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.FunctionFunTests;
@@ -528,6 +536,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2796MDT856;
 				INFOPLIST_FILE = FunctionFunTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.FunctionFunTests;
