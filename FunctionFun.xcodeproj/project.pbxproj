@@ -14,8 +14,8 @@
 		7DC827E01D42A8A8008EDD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC827DF1D42A8A8008EDD80 /* Assets.xcassets */; };
 		7DC827E31D42A8A8008EDD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC827E11D42A8A8008EDD80 /* LaunchScreen.storyboard */; };
 		7DC827EE1D42A8A8008EDD80 /* FunctionFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC827ED1D42A8A8008EDD80 /* FunctionFunTests.swift */; };
-		7DC827FB1D42B340008EDD80 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */; };
 		E1BBCC5757446E1F93E42568 /* Pods_FunctionFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */; };
+		E7D482E21DFF9F2E008DF215 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC827F81D42AAA0008EDD80 /* Supporting Files-Test */,
-				7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */,
+				E7D482E31DFF9F8D008DF215 /* New Group */,
 			);
 			path = FunctionFunTests;
 			sourceTree = "<group>";
@@ -145,6 +145,14 @@
 				980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7D482E31DFF9F8D008DF215 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,11 +206,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Gamesmith, LLC";
 				TargetAttributes = {
 					7DC827D41D42A8A8008EDD80 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CPV28359CM;
 						LastSwiftMigration = 0800;
 					};
 					7DC827E81D42A8A8008EDD80 = {
@@ -349,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D482E21DFF9F2E008DF215 /* ViewControllerTests.swift in Sources */,
 				7DC827DB1D42A8A8008EDD80 /* ViewController.swift in Sources */,
 				7DC827D91D42A8A8008EDD80 /* AppDelegate.swift in Sources */,
 			);
@@ -358,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC827FB1D42B340008EDD80 /* ViewControllerTests.swift in Sources */,
 				7DC827EE1D42A8A8008EDD80 /* FunctionFunTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +495,7 @@
 			baseConfigurationReference = D5A3FFBA77EF2C07744F9A24 /* Pods-FunctionFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPV28359CM;
 				INFOPLIST_FILE = FunctionFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.FunctionFun;
@@ -499,6 +509,7 @@
 			baseConfigurationReference = 5EE1A158BC4936EA04210C24 /* Pods-FunctionFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPV28359CM;
 				INFOPLIST_FILE = FunctionFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.FunctionFun;
