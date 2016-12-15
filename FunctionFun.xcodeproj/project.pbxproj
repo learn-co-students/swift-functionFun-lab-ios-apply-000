@@ -198,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Gamesmith, LLC";
 				TargetAttributes = {
 					7DC827D41D42A8A8008EDD80 = {
@@ -547,7 +547,7 @@
 				7DC827F11D42A8A8008EDD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		7DC827F21D42A8A8008EDD80 /* Build configuration list for PBXNativeTarget "FunctionFun" */ = {
 			isa = XCConfigurationList;
@@ -556,7 +556,7 @@
 				7DC827F41D42A8A8008EDD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		7DC827F51D42A8A8008EDD80 /* Build configuration list for PBXNativeTarget "FunctionFunTests" */ = {
 			isa = XCConfigurationList;
@@ -565,7 +565,7 @@
 				7DC827F71D42A8A8008EDD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
