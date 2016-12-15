@@ -22,7 +22,7 @@ class VCTests: QuickSpec {
                 
                 let person = "Jim"
                 let expectedGreeting = "Hello Jim!"
-                let actualGreeting = testVC.greet(person: person)
+                let actualGreeting = testVC.greet(name: person)
                 
                 expect(actualGreeting).to(match(expectedGreeting))
                 
@@ -45,7 +45,7 @@ class VCTests: QuickSpec {
                 
                 let characterName = "Jessica"
                 let expectedResponse = "My favorite character is Jessica"
-                let actualResponse = testVC.favoriteCharacter(name: characterName)
+                let actualResponse = testVC.favoriteCharacter(nameChar: characterName)
                 
                 expect(actualResponse).to(match(expectedResponse))
                 
@@ -57,7 +57,7 @@ class VCTests: QuickSpec {
                 
                 let number = 99
                 let expectedResponse = "I got 99 problems but Swift ain't one."
-                let actualResponse = testVC.problems(number: number)
+                let actualResponse = testVC.problems(num: number)
                 
                 expect(actualResponse).to(match(expectedResponse))
                 
@@ -87,9 +87,9 @@ class VCTests: QuickSpec {
                 let expectedTest2Response = true
                 let expectedTest3Response = false
                 
-                let actualTest1Response = testVC.isEven(number: test1)
-                let actualTest2Response = testVC.isEven(number: test2)
-                let actualTest3Response = testVC.isEven(number: test3)
+                let actualTest1Response = testVC.isEven(num: test1)
+                let actualTest2Response = testVC.isEven(num: test2)
+                let actualTest3Response = testVC.isEven(num: test3)
                 
                 expect(actualTest1Response).to(equal(expectedTest1Response))
                 expect(actualTest2Response).to(equal(expectedTest2Response))
