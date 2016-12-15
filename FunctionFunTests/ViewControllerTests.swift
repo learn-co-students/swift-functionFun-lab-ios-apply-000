@@ -7,8 +7,6 @@
 //
 
 
-import Quick
-import Nimble
 @testable import FunctionFun
 
 
@@ -16,6 +14,14 @@ class VCTests: QuickSpec {
     override func spec() {
         
         let testVC = ViewController()
+        
+        
+        func greet(_ parameter1: String) -> String {
+            let person = "Jim"
+            let expectedGreeting = "Hello Jim!"
+            return "Hello \(person)"
+            
+        }
         
         describe("greet(_:)") {
             it("Should take in a String as an argument & return back a greeting as such (x being the name of the individual). 'Hello x!'") {
