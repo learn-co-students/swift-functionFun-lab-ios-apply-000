@@ -15,6 +15,9 @@
 		7DC827E31D42A8A8008EDD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC827E11D42A8A8008EDD80 /* LaunchScreen.storyboard */; };
 		7DC827EE1D42A8A8008EDD80 /* FunctionFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC827ED1D42A8A8008EDD80 /* FunctionFunTests.swift */; };
 		7DC827FB1D42B340008EDD80 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */; };
+		B54CF4501E081A680050C94C /* Pods_FunctionFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2AF9680A7AA603B9CBE712 /* Pods_FunctionFun.framework */; };
+		B54CF4511E081A6A0050C94C /* Pods_FunctionFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */; };
+		B54CF4531E081A810050C94C /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = B54CF4521E081A810050C94C /* Podfile.lock */; };
 		E1BBCC5757446E1F93E42568 /* Pods_FunctionFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,7 @@
 		7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF83352C768FF0B55185CA3 /* Pods-FunctionFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionFunTests/Pods-FunctionFunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B54CF4521E081A810050C94C /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		D5A3FFBA77EF2C07744F9A24 /* Pods-FunctionFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionFun/Pods-FunctionFun.debug.xcconfig"; sourceTree = "<group>"; };
 		DE2AF9680A7AA603B9CBE712 /* Pods_FunctionFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54CF4511E081A6A0050C94C /* Pods_FunctionFunTests.framework in Frameworks */,
 				08F99043304E977BF59CF4C1 /* Pods_FunctionFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54CF4501E081A680050C94C /* Pods_FunctionFun.framework in Frameworks */,
 				E1BBCC5757446E1F93E42568 /* Pods_FunctionFunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC827DA1D42A8A8008EDD80 /* ViewController.swift */,
+				B54CF4521E081A810050C94C /* Podfile.lock */,
 				7DC827F91D42AAAF008EDD80 /* Supporting Files */,
 			);
 			path = FunctionFun;
@@ -198,7 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Gamesmith, LLC";
 				TargetAttributes = {
 					7DC827D41D42A8A8008EDD80 = {
@@ -238,6 +245,7 @@
 			files = (
 				7DC827E31D42A8A8008EDD80 /* LaunchScreen.storyboard in Resources */,
 				7DC827E01D42A8A8008EDD80 /* Assets.xcassets in Resources */,
+				B54CF4531E081A810050C94C /* Podfile.lock in Resources */,
 				7DC827DE1D42A8A8008EDD80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
