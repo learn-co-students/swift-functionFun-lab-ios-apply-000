@@ -42,6 +42,7 @@
 		7DC827ED1D42A8A8008EDD80 /* FunctionFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionFunTests.swift; sourceTree = "<group>"; };
 		7DC827EF1D42A8A8008EDD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DC827FA1D42B340008EDD80 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		8B2A47E41E02D1DA00662F9A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/FunctionFun-cvcnlwlqoggacrbwhonmgamvbesg/Build/Products/Debug-iphonesimulator/Quick/Quick.framework"; sourceTree = "<group>"; };
 		980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF83352C768FF0B55185CA3 /* Pods-FunctionFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionFunTests/Pods-FunctionFunTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5A3FFBA77EF2C07744F9A24 /* Pods-FunctionFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionFun/Pods-FunctionFun.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 		81514F6FDA4FDA3C42103EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B2A47E41E02D1DA00662F9A /* Quick.framework */,
 				DE2AF9680A7AA603B9CBE712 /* Pods_FunctionFun.framework */,
 				980202B04093C8420F8714BC /* Pods_FunctionFunTests.framework */,
 			);
@@ -198,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Gamesmith, LLC";
 				TargetAttributes = {
 					7DC827D41D42A8A8008EDD80 = {
