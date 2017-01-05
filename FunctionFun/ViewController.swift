@@ -17,13 +17,13 @@ class ViewController: UIViewController {
     
     func greet(name: String) -> String {
         
-        return "Hello, \(name)."
+        return "Hello \(name)!"
         
     }
 
     func frozen() -> String {
         
-        return "Let it go"
+        return "Let it go!"
         
     }
     
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     
     func problems(number:Int) -> String {
         
-        return "I got #\(number) but Swift ain't one."
+        return "I got \(number) problems but Swift ain't one."
         
     }
 
@@ -47,5 +47,13 @@ class ViewController: UIViewController {
         
     }
     
+    
+    func isEven(number:Int) -> Bool {
+        if number%2 == 0 {
+            return true
+        } else {
+                return false
+            }
+    }
     
 }
