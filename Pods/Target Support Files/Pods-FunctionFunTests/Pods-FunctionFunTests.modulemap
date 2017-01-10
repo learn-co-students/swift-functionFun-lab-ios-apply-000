@@ -1,6 +1,0 @@
-framework module Pods_FunctionFunTests {
-  umbrella header "Pods-FunctionFunTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
