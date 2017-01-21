@@ -11,11 +11,20 @@ import Foundation
 
 class Functions {
     
-    
-    
-    
-    
     // Implement your functions here.
+    
+    func greet(person: String) {
+        
+        print("Hello \(person)!")
+        
+    }
+    
+    func frozen() {
+        
+        print("Let it go!")
+        
+    }
+    
     
  
     
