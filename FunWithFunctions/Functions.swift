@@ -20,7 +20,7 @@ class Functions {
     }
     func favoriteCharacter(name:String) -> String
     {
-        return "My favorite character is \(name)!"
+        return "My favorite character is \(name)."
     }
     func problems(number:Int) -> String
     {
