@@ -16,10 +16,50 @@ class Functions {
     
     
     // Implement your functions here.
-    
+  
+    //1
+    func greet(person: String) -> String {
+        
+        return "Hello \(person)!"
+    }
  
+   //2
+    func frozen() -> String {
+        
+        return "Let it go!"
+    }
     
     
+    //3
+    func favoriteCharacter(name: String) -> String {
+        
+        return "My favorite character is \(name)."
+        
+    }
     
+    //4
+    func problems(number: Int) -> String {
+        
+        return "I got \(number) problems, but Swift ain't one."
+    }
+    
+    //5
+    func uppercaseCatchphrase(name: String) -> String {
+        
+        let uppercaseCatchphrase = "To infinity and beyond \(name)!"
+       return uppercaseCatchphrase.uppercased()
+        
+    }
+    
+    //6
+    func isEven(number: Int) -> Bool {
+        
+        if number % 2 == 0 {
+            return true
+        } else {
+            return false
+        }
+        
+    }
 
 }
